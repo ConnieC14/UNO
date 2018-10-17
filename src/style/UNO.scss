@@ -1,0 +1,66 @@
+:local(.container) {
+	height: 100%;
+	
+	.App-body {
+		margin: 0px;
+		text-align: center;
+	}
+
+	.App-header {
+		background-color:#262626;
+		text-align: center;
+		padding: 20px 0px 20px 0px;
+		margin: auto;
+		width: 100%;
+		text-align: center;
+	}
+
+	.Instructions {
+		background-color: #373737;
+		padding: 10px;
+	}
+
+	.App-Game {
+		background-color: #323232;
+	}
+
+	.Actions {
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		
+	}
+
+	.Create-Card-Holder {
+		margin: 20px;
+	}
+
+	.Filter-Deck {
+		margin: 20px;
+	}
+
+	.Sort-Card {
+		margin: 20px;
+	}
+
+	.Card-Holder {
+
+	}
+	
+	.App-footer {
+		text-align: center;
+		padding: 10px;
+		margin: auto;
+		width: 50%;
+	}
+
+	.App-footer h2 {
+		padding: 20px;
+		margin: auto;
+        font-weight: bold; 
+	}
+
+
+	
+
+}

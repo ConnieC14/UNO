@@ -1,0 +1,21 @@
+:local(.container) {
+
+	.create-view-enter { 
+	  opacity: 0.01;
+	}
+
+	.create-view-enter-active {
+	  opacity: 1;
+	  transition: opacity 500ms ease-in;
+	}
+
+	.create-view-exit {
+	  opacity: 1;
+	}
+
+	.create-view-exit-active {
+	  opacity: 0.01;
+	  transition: opacity 300ms ease-in;
+	}
+	
+}
